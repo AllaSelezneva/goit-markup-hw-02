@@ -22,6 +22,9 @@ body {
 /* Цвет адреса и телефона в футере rgba(255, 255, 255, 0.6) */
 
 /* Логотип */
+span {
+  color: var(--accent-color);
+}
 .logo {
   color: #000000;
 }
@@ -60,6 +63,7 @@ body {
 }
 .section-name {
   color: var(--title-text-color);
+  /* Футер */
 }
 footer {
   color: var(--primery-background-color);
@@ -68,6 +72,9 @@ footer {
 address {
   color: var(--primery-background-color);
 }
-.address-list {
+.footer-list {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-logo {
+  color: var(--primery-background-color);
 }
