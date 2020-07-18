@@ -1,0 +1,73 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primery-background-color: #ffffff;
+}
+
+body {
+  background-color: var(--primery-background-color);
+  color: var(--primary-text-color);
+}
+
+/* Цвет лого #000000; #2196F3; */
+/* Цвет основного текста #212121; */
+/* Вторичный цвет текста  #757575; */
+/* Акцент #2196F3; */
+/* Фон страницы белый #FFFFFF; */
+/* Вторичный фон #F5F4FA; */
+/* вторичный фон 2 rgba(47, 48, 58, 0.8) */
+/* Фон футера #2F303A; */
+/* Цвет лого соцсетей #AFB1B8; */
+/* Цвет адреса и телефона в футере rgba(255, 255, 255, 0.6) */
+
+/* Логотип */
+.logo {
+  color: #000000;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+/* Стилизация навигации сайта */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Стилизация Героя */
+.hero {
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero-title {
+  color: var(--primery-background-color);
+}
+.hero-button {
+  color: var(--primery-background-color);
+  background-color: var(--accent-color);
+}
+/* Секции Наши приемущества и Чем мы занимаемся*/
+.section-title {
+  color: var(--title-text-color);
+}
+.section-list {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  /* Секция Наша команда */
+}
+.section-name {
+  color: var(--title-text-color);
+}
+footer {
+  color: var(--primery-background-color);
+  background-color: #2f303a;
+}
+address {
+  color: var(--primery-background-color);
+}
+.address-list {
+  color: rgba(255, 255, 255, 0.6);
+}
