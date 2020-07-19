@@ -88,6 +88,11 @@ button {
   line-height: 1.62;
   text-align: center;
 }
+.button-nav:hover,
+.button-nav:focus{
+   color: var(--primery-background-color);
+   background-color: var(--accent-color);
+}
 /* Галерея портфолио */
 .title {
   color: var(--title-text-color);
