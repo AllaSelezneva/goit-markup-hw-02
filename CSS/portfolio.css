@@ -77,6 +77,9 @@ button {
 .contact-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 /* Оформление кнопок */
 
 .button-nav {

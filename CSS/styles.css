@@ -58,6 +58,10 @@ span {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .contact-nav .link {
   color: var(--primary-text-color);
 
